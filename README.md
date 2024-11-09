@@ -1,16 +1,10 @@
-# Covid 19 Data Exploration
 
-This project is basically about analysing and exploring data on the Covid 19 dataset
-
-## COVID-19 Data Statistics (2020-2021)
-### Overview
+# COVID-19 Data Exploration and Statistics (2020-2021)
+## Overview
 This project analyzes COVID-19 data from 2020 to 2021, focusing on trends in cases, recoveries, deaths, and other related statistics. The data visualizations and insights generated from this project aim to provide a clear picture of the pandemic's impact across different regions.
-Project Purpose
-The goal of this project is to:
 
-Understand patterns in COVID-19 cases over time
-Compare statistics between countries and regions
-Visualize trends and uncover insights that may inform health responses and awareness
+### Project Purpose
+The goal of this project is to: Understand patterns in COVID-19 cases over time Compare statistics between countries and regions Visualize trends and uncover insights that may inform health responses and awareness
 
 ### Dataset
 Source: [ https://ourworldindata.org/covid-deaths]
@@ -18,32 +12,37 @@ Coverage: Global, covering statistics such as confirmed cases, deaths, recoverie
 Period: January 2020 to December 2021
 
 ### Tools and Technologies
-SQL: For data cleaning, transformation, and analysis
-Python: For additional data processing and data visualization
-Tableau/PowerBI: For creating interactive dashboards (optional)
+SQL: For data cleaning, transformation, and analysis.
+Python: For additional data processing and data visualization.
+Tableau/PowerBI: For creating interactive dashboards.
 
 ### Key Insights
-Growth rates of cases and recoveries over time
-Mortality rates across different demographics
-Geographic hotspots and regional comparisons
-Vaccination distribution analysis (if applicable)
+Growth rates of cases and recoveries over time.
+Mortality rates across different demographics.
+Geographic hotspots and regional comparisons.
+Vaccination distribution analysis.
 
 ### Project Structure
 Data: Contains raw and processed data files.
-Notebooks: Jupyter notebooks with code for data analysis.
-Visualizations: Folder containing generated visualizations and dashboards.
 SQL Scripts: SQL scripts used for data processing and analysis.
 
 ### Getting Started
 To run this project locally:
 Clone the repository.
-Ensure you have Python, SQL Server, or other required tools installed.
-Follow setup instructions in the provided notebooks or scripts to load data and run analysis.
+Ensure you have MS Excel, SQL Server, and SQL Server Management Studio installed.
+To import dataset into your database, follow these instructions: 
+1.Open SSMS and select the desired database.
+2.Go to Tasks > Import Data > Next.
+3.Under Data Source, choose Flat File Source and select your CSV file (make sure the Excel file is saved as CSV).
+4.Click Next and set the Destination as Microsoft OLE DB Driver for SQL Server.
+5.Under Properties, enter the server name, select Windows Authentication, choose your database, and test the connection.
+6.Continue with Next > Next and finish the import.
+This project is an exciting first step toward building my portfolio.
 
 ### Future Improvements
-Extend data analysis to include more recent years
-Add more granular analysis on demographics or vaccination effects
-Implement predictive modeling for future trends
+Extend data analysis to include more recent years.
+Add more granular analysis on demographics or vaccination effects.
+Implement predictive modeling for future trends.
 
 #### Contact
 For questions or collaboration, reach out to me at asiphetyolo@gmail.com.
