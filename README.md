@@ -1,20 +1,19 @@
 
 # COVID-19 Data Exploration and Statistics (2020-2021)
 ## Overview
-This project analyzes COVID-19 data from 2020 to 2021, focusing on trends in cases, recoveries, deaths, and other related statistics. The data visualizations and insights generated from this project aim to provide a clear picture of the pandemic's impact across different regions.
+This project analyzes COVID-19 data from 2020 to 2021, focusing on trends in cases, recoveries, deaths, and other related statistics. The data exploration and insights generated from this project aim to provide a clear picture of the pandemic's impact across different regions.
 
 ### Project Purpose
 The goal of this project is to: Understand patterns in COVID-19 cases over time Compare statistics between countries and regions Visualize trends and uncover insights that may inform health responses and awareness
 
 ### Dataset
-Source: [ https://ourworldindata.org/covid-deaths]
+Source: https://ourworldindata.org/covid-deaths. 
+You can also download CSV files attached to this repository.
 Coverage: Global, covering statistics such as confirmed cases, deaths, recoveries, and vaccinations.
 Period: January 2020 to December 2021
 
 ### Tools and Technologies
-SQL: For data cleaning, transformation, and analysis.
-Python: For additional data processing and data visualization.
-Tableau/PowerBI: For creating interactive dashboards.
+SQL Server: For data manupulation, transformation, and analysis.
 
 ### Key Insights
 Growth rates of cases and recoveries over time.
@@ -23,8 +22,8 @@ Geographic hotspots and regional comparisons.
 Vaccination distribution analysis.
 
 ### Project Structure
-Data: Contains raw and processed data files.
-SQL Scripts: SQL scripts used for data processing and analysis.
+Data: Contains raw and processed data files (CSV).
+SQL Script/Query: SQL scripts used for data processing and analysis.
 
 ### Getting Started
 To run this project locally:
